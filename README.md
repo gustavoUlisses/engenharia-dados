@@ -1,75 +1,80 @@
 
-# 📊 Engenharia de Dados – Estudos e Projetos
+# 📊 Repositório de Estudos em Engenharia de Dados
 
-Este repositório reúne anotações, exercícios, projetos e práticas voltadas para o aprendizado contínuo em **Engenharia de Dados**. Os conteúdos estão organizados por temas e tecnologias fundamentais da área.
-
----
-
-## 🧠 Conteúdos Abordados
-
-- SQL (consultas, joins, agrupamentos, subqueries)
-- Python aplicado a dados
-- Manipulação e transformação com Pandas
-- Fundamentos de Spark (com simulações em Pandas)
-- Modelagem de dados relacionais
-- Conceitos de Data Warehouse, Data Lake e Lakehouse
-- Versionamento com Git e GitHub
-- Documentação de pipelines e fluxos de dados
-- Conceitos e práticas com AWS (S3, Glue, Athena, Redshift)
+Este repositório contém anotações, códigos, exercícios e projetos utilizados para o estudo prático e teórico em Engenharia de Dados.
 
 ---
 
-## 🗂️ Estrutura do Repositório
+## Estrutura de Conteúdo
+
+### 📁 sql/
+- `consultas_basicas.sql`: SELECT, WHERE, JOIN, GROUP BY, ORDER BY
+- `subqueries_e_ctes.sql`: Subqueries, CTEs e boas práticas
+
+### 📁 python/
+- `logica_basica.py`: Estruturas de controle, listas, dicionários, funções
+- `python_para_dados.py`: Leitura de arquivos, manipulação básica
+
+### 📁 pandas/
+- `transformacoes_basicas.ipynb`: Limpeza, filtros, joins, agregações
+
+### 📁 modelagem_dados/
+- `modelo_relacional.drawio`: Diagrama entidade-relacionamento
+- `normalizacao.md`: 1FN, 2FN, 3FN
+
+### 📁 aws/
+- `conceitos.md`: S3, Glue, Athena, Redshift
+- `scripts_exemplos/`: Scripts práticos
+
+### 📁 documentacao/
+- `fluxo_pipeline_exemplo.md`: Exemplo de documentação técnica de pipeline
+
+### 📁 git/
+- `comandos_essenciais.md`: Comandos básicos de versionamento
+
+### 📁 pipelines/
+- `pipeline_csv_para_parquet.py`: ETL simples
+- `airflow_dag_exemplo.py`: Exemplo com Apache Airflow
+
+### 📁 governanca/
+- `lgpd_e_anonimizacao.md`: Conceitos de anonimização e proteção de dados
+- `data_catalog.md`: Data Catalog, Lineage e boas práticas
+
+### 📁 teoria_extra/
+- `arquiteturas_dados.md`: DW, Data Lake, Lakehouse
+- `spark_vs_pandas.md`: Diferenças e uso prático
+- `conceitos_data_engineering.md`: Glossário técnico
+
+### 📁 projetos/
+- `pipeline_end_to_end/`: Projeto completo com ingestão, transformação e armazenamento
+
+---
+
+## Organização
 
 ```
-📁 sql/
-    ├── consultas_basicas.sql
-    └── joins_e_agregacoes.sql
-
-📁 python/
-    ├── logica_programacao.py
-    └── exercicios_funcoes.py
-
-📁 pandas/
-    ├── analise_vendas.ipynb
-    └── limpeza_dados.py
-
-📁 modelagem_dados/
-    └── modelo_entidade_relacionamento.drawio
-
-📁 pipelines/
-    └── pipeline_csv_para_csv_limpo.py
-
-📁 aws/
-    └── conceitos_basicos.md
-
-📁 spark/
-    └── transformacoes_simuladas_com_pandas.ipynb
-
-📁 documentacao/
-    └── exemplo_fluxo_pipeline.md
-
-📁 projetos/
-    └── projeto_final_pipeline_completo/
+📦 engenharia-de-dados/
+ ┣ 📁 aws/
+ ┣ 📁 documentacao/
+ ┣ 📁 git/
+ ┣ 📁 governanca/
+ ┣ 📁 modelagem_dados/
+ ┣ 📁 pandas/
+ ┣ 📁 pipelines/
+ ┣ 📁 projetos/
+ ┣ 📁 python/
+ ┣ 📁 sql/
+ ┣ 📁 teoria_extra/
 ```
 
 ---
 
-## ✅ Objetivo
+## Referências
 
-Consolidar conhecimento prático e teórico em engenharia de dados, por meio de estudo ativo, documentação técnica e projetos aplicados.
-
----
-
-## 🔗 Referências Recomendadas
-
-- [Kaggle – Curso de Pandas](https://www.kaggle.com/learn/pandas)
+- [Kaggle – Pandas Course](https://www.kaggle.com/learn/pandas)
 - [Mode – SQL Tutorial](https://mode.com/sql-tutorial/)
-- [AWS – Documentação Oficial](https://docs.aws.amazon.com/)
-
----
-
-## 🚀 Em Desenvolvimento Contínuo
-
-Este repositório está em constante evolução com novos estudos, anotações e projetos.
+- [Data Engineering Zoomcamp](https://github.com/DataTalksClub/data-engineering-zoomcamp)
+- [AWS – Data Analytics](https://aws.amazon.com/data-analytics/)
+- [Great Expectations](https://greatexpectations.io/)
+- [Martinfowler – Data Mesh](https://martinfowler.com/articles/data-monolith-to-mesh.html)
 
